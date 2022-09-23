@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.hide-menu-list {
+    opacity: 0;
+}
+
+.show-menu-list {
+    opacity: 1;
+    transition: .3s;
+}
