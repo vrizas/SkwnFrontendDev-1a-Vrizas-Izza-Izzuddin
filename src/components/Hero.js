@@ -16,7 +16,7 @@ function Hero() {
             </div>
         </section>
         <section className="px-3 py-4 h-[250px] bg-no-repeat bg-center bg-cover flex flex-col justify-between lg:h-full" style={{backgroundImage: `url(${heroImage})`}}>
-            <h3 className="text-white text-sm">HIGHLIGHTED PRODUCT</h3>
+            <h3 className="text-white text-sm lg:invisible">HIGHLIGHTED PRODUCT</h3>
             <div className="flex flex-col gap-2">
                 <p className="bg-[#FFFFFF80] text-primary py-2 px-4 rounded-lg w-fit">$329</p>
                 <h4 className="text-white text-2xl">Pösht Sofa</h4>
