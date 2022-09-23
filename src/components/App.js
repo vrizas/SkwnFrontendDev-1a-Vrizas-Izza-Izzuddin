@@ -3,6 +3,7 @@ import Advantage from './Advantage';
 import Hero from './Hero';
 import Navigation from './Navigation';
 import Partner from './Partner';
+import Product from './Product';
 import Recommendation from './Recommendation';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Advantage />
         <Partner />
         <Recommendation />
+        <Product />
       </main>
     </div>
   );
