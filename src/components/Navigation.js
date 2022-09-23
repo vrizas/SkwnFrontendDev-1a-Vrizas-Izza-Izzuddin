@@ -1,5 +1,6 @@
 /* eslint-disable */
 import React, {useState} from 'react';
+import menuIcon from '../assets/icons/hamburger-menu.svg';
 import { FiChevronDown } from 'react-icons/fi';
 import { HiOutlineShoppingBag } from 'react-icons/hi';
 
@@ -13,7 +14,7 @@ function Navigation() {
   return (
     <nav className="relative flex">
       <button onClick={showNavigationHandler} className="lg:hidden">
-        <img src="./icons/hamburger-menu.svg" alt="" width="24" />
+        <img src={menuIcon} alt="" width="24" />
       </button>
       <section className={`font-medium absolute top-[30px] right-0 bg-white shadow w-[200px] lg:flex lg:flex-row lg:gap-32 lg:relative lg:top-0 lg:shadow-none lg:w-fit ${isNavigationShowed ? "flex flex-col" : "hidden"}`}>
         <div className="flex flex-col lg:flex lg:flex-row lg:gap-5">

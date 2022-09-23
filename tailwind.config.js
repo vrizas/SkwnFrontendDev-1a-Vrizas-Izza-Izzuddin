@@ -14,6 +14,11 @@ module.exports = {
       'white': '#FFFFFF',
       'black': '#000000',
     },
+    extend: {
+      gridTemplateColumns: {
+        'hero': '2fr 1fr',
+      }
+    }
   },
   plugins: [],
 }
