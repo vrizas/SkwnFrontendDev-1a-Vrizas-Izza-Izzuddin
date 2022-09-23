@@ -10,7 +10,7 @@ function Hero() {
     <div className="grid lg:grid-cols-hero lg:h-[calc(100vh_-_96px)]">
         <section className="px-3 py-6 lg:px-14 h-full flex flex-col justify-center">
             <h2 className="font-extrabold text-3xl text-center text-primary leading-[48px_!important] lg:leading-[87px_!important] lg:text-7xl lg:text-left">The kind of <span className="text-soft-brown">furniture</span> you have been looking for</h2>
-            <div className="flex flex-col justify-center items-center gap-3 mt-5 text-sm lg:flex-row">
+            <div className="flex flex-col justify-center items-center gap-3 mt-5 text-sm lg:flex-row lg:justify-start">
                 <button className="flex justify-center items-center gap-3 bg-caramel text-secondary py-4 w-[250px] rounded-xl"><BiSearchAlt2 size="18" /> SEARCH CATALOG</button>
                 <a href="https://www.youtube.com/watch?v=f0nPPc2-jpE" target="_blank" className="flex justify-center items-center gap-3 border border-secondary text-secondary py-4 w-[250px] rounded-xl hover:bg-primary hover:text-white"><BsPlayCircle size="18" /> WATCH VIDEOS</a>
             </div>

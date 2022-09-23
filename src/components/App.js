@@ -1,4 +1,5 @@
 import React from 'react';
+import Advantage from './Advantage';
 import Hero from './Hero';
 import Navigation from './Navigation';
 
@@ -11,6 +12,7 @@ function App() {
       </header>
       <main>
         <Hero />
+        <Advantage />
       </main>
     </div>
   );
