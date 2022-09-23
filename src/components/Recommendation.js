@@ -36,7 +36,7 @@ function Recommendation() {
         return <div>Loading...</div>;
     } else {
         return (
-            <div className="grid lg:grid-cols-hero gap-5">
+            <div className="grid lg:grid-cols-hero gap-5" id="furniture">
                 <section className="px-3 py-6 lg:px-14 lg:py-10 lg:order-last">
                     <div className="text-center mb-4 lg:text-left lg:mb-10">
                         <p className="text-sm lg:text-xl">Categories</p>
