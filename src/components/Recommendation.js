@@ -4,7 +4,6 @@ import {
   AccordionHeader,
   AccordionBody,
 } from "@material-tailwind/react";
-import heroImage from '../assets/images/hero.jpg';
 
 function Recommendation() {
     const [open, setOpen] = useState(2);

@@ -2,6 +2,7 @@ import React from 'react';
 import Advantage from './Advantage';
 import Hero from './Hero';
 import Navigation from './Navigation';
+import Newsletter from './Newsletter';
 import Partner from './Partner';
 import Product from './Product';
 import Recommendation from './Recommendation';
@@ -19,6 +20,7 @@ function App() {
         <Partner />
         <Recommendation />
         <Product />
+        <Newsletter />
       </main>
     </div>
   );
