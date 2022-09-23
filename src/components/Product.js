@@ -1,6 +1,5 @@
 /* eslint-disable */
 import React, { useState, useEffect } from 'react';
-import { FiChevronRight, FiChevronLeft } from 'react-icons/fi';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
@@ -10,16 +9,12 @@ function Product() {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-        fetch("https://api.escuelajs.co/api/v1/categories/3/products")
+        fetch("https://api.escuelajs.co/api/v1/categories/3/products?offset=0&limit=12")
           .then(res => res.json())
           .then(
             (result) => {
               setIsLoaded(true);
-              const filteredResult = [];
-              for (let i = 0; i < 12; i++) {
-                filteredResult.push(result[i]);
-              }
-              setProducts(filteredResult);
+              setProducts(result);
             },
             (error) => {
               setIsLoaded(true);
