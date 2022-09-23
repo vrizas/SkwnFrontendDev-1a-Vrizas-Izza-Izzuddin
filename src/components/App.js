@@ -2,6 +2,7 @@ import React from 'react';
 import Advantage from './Advantage';
 import Hero from './Hero';
 import Navigation from './Navigation';
+import Partner from './Partner';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <main>
         <Hero />
         <Advantage />
+        <Partner />
       </main>
     </div>
   );
