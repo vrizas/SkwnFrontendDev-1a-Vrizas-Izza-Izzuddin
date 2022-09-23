@@ -3,6 +3,7 @@ import Advantage from './Advantage';
 import Hero from './Hero';
 import Navigation from './Navigation';
 import Partner from './Partner';
+import Recommendation from './Recommendation';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Hero />
         <Advantage />
         <Partner />
+        <Recommendation />
       </main>
     </div>
   );

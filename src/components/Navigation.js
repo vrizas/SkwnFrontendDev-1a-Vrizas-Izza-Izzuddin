@@ -16,7 +16,7 @@ function Navigation() {
       <button onClick={showNavigationHandler} className="lg:hidden">
         <img src={menuIcon} alt="" width="24" />
       </button>
-      <section className={`font-medium absolute top-[30px] right-0 bg-white shadow w-[200px] lg:flex lg:flex-row lg:gap-32 lg:relative lg:top-0 lg:shadow-none lg:w-fit ${isNavigationShowed ? "flex flex-col" : "hidden"}`}>
+      <section className={`font-medium absolute top-[30px] right-0 bg-white shadow w-[200px] lg:flex lg:flex-row lg:gap-20 lg:relative lg:top-0 lg:shadow-none lg:w-fit xl:gap-32 ${isNavigationShowed ? "flex flex-col" : "hidden"}`}>
         <div className="flex flex-col lg:flex lg:flex-row lg:gap-5">
           <a href="#about-us" className="px-4 py-3">About us</a>
           <a href="#furniture" className="px-4 py-3 flex items-center gap-1">Furniture <FiChevronDown /></a>
